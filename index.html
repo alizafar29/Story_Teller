@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+    <link rel="stylesheet" href="index.css">
+
+
+
+</head>
+<body>
+    <div class="bg-color">
+        <div class="brand">
+          <img src="story.png" alt="Image Missing Will be Uploaded Soon!!!">
+        </div>
+
+        <div class="second-block">
+            <div class="head">
+                <h1>Complete the Form -</h1>
+                <h1>Complete the Story!</h1>
+            </div>
+            <div class="form">
+                <form action="story.html" method="get">
+                    <label for="animal">Animal : </label>
+                    <input type="text" id="animal" value="" name="name" placeholder="Enter the Name :" required><br><br>
+                    
+                    <label for="anotherAnimal">Another Animal : </label>
+                    <input type="text" id="anotherAnimal" value="" placeholder="Enter the Name : " required><br><br>
+                    
+                    <label for="oneMoreAnimal">One More Animal : </label>
+                    <input type="text" id="oneMoreAnimal" value="" placeholder="Enter the Name : " required><br><br>
+                    
+                    <label for="adjective">Adjective (past tense) : </label>
+                    <input type="text" id="adjective" value="" placeholder="Enter the Tense : " required><br><br>
+                    
+                    <label for="verbs">Verbs (ends in-ing) : </label>
+                    <input type="text" id="verbs" value="" name="" placeholder="Enter the Verbs Likes - Running" required><br><br>
+                    
+                    <label for="number">Number : </label>
+                    <input type="number" id="number" value="" name="" placeholder="Enter the Number : " required><br><br>
+                    
+                    <label for="yes-no">Yes or No : </label>
+                    <input type="radio" value="Yes" id="yesNo" name="option">Yes
+                    <input type="radio" value="No" id="yesNo" name="option">No <br><br>
+                    
+                    <label for="speed">Relative Speed (ends in -er) : </label>
+                    <select name="" id="speed">
+                        <option value="Quicker">Quicker</option>
+                        <option value="Slow">Slow</option>
+                        <option value="Faster">Faster</option>
+                    </select><br><br>
+                    
+                    <label for="quotes">Motivational Quotes : </label>
+                    <input type="text" id="quotes" value="" name="" placeholder="Example" required><br><br>
+                    
+                    <label for="message">Meaningful Message : </label><br><br>
+                    <textarea name="" id="message" cols="50" rows="10" placeholder="This is a Meanings"></textarea><br><br>
+                    
+                    <button type="submit" id="send" onclick="dataTransfer();">Form My Story !</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
